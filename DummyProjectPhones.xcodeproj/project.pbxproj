@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651B60621D4B2B2900FB3E1C /* IDeviceWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 651B60611D4B2B2900FB3E1C /* IDeviceWrapper.mm */; };
+		6549E3571D48A8F300FB3E1C /* PlantronicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6549E3561D48A8F300FB3E1C /* PlantronicsManager.swift */; };
+		6549E35C1D48A8FD00FB3E1C /* PlantronicsWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6549E3591D48A8FD00FB3E1C /* PlantronicsWrapper.mm */; };
+		6549E35E1D48A94B00FB3E1C /* Spokes3GSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6549E35D1D48A94B00FB3E1C /* Spokes3GSDK.framework */; };
+		6549E35F1D48A96A00FB3E1C /* Spokes3GSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6549E35D1D48A94B00FB3E1C /* Spokes3GSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6549E3621D48B60B00FB3E1C /* DevicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6549E3611D48B60B00FB3E1C /* DevicesManager.swift */; };
+		657D32FB1D3CB6DB00FB3E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D32FA1D3CB6DB00FB3E1C /* AppDelegate.swift */; };
+		657D32FD1D3CB6DB00FB3E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D32FC1D3CB6DB00FB3E1C /* ViewController.swift */; };
+		657D32FF1D3CB6DB00FB3E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657D32FE1D3CB6DB00FB3E1C /* Assets.xcassets */; };
+		657D33021D3CB6DB00FB3E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657D33001D3CB6DB00FB3E1C /* Main.storyboard */; };
+		657D330D1D3CB6DB00FB3E1C /* DummyProjectPhonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D330C1D3CB6DB00FB3E1C /* DummyProjectPhonesUITests.swift */; };
+		657D331B1D3CBC0D00FB3E1C /* libjabra.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657D33181D3CBC0D00FB3E1C /* libjabra.dylib */; };
+		657D331D1D3CC68300FB3E1C /* libjsoncpp.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 657D33171D3CBC0D00FB3E1C /* libjsoncpp.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		657D331E1D3CC68300FB3E1C /* libjabra.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 657D33181D3CBC0D00FB3E1C /* libjabra.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		657D33281D3CD90E00FB3E1C /* GNDevice.mm in Sources */ = {isa = PBXBuildFile; fileRef = 657D33271D3CD90E00FB3E1C /* GNDevice.mm */; };
+		657D332A1D3CF77500FB3E1C /* JabraAPIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D33291D3CF77500FB3E1C /* JabraAPIWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		657D33091D3CB6DB00FB3E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657D32EF1D3CB6DB00FB3E1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657D32F61D3CB6DB00FB3E1C;
+			remoteInfo = DummyProjectPhones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		657D331C1D3CC5CD00FB3E1C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6549E35F1D48A96A00FB3E1C /* Spokes3GSDK.framework in CopyFiles */,
+				657D331D1D3CC68300FB3E1C /* libjsoncpp.1.dylib in CopyFiles */,
+				657D331E1D3CC68300FB3E1C /* libjabra.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		651B60601D4B2B2900FB3E1C /* IDeviceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDeviceWrapper.h; sourceTree = "<group>"; };
+		651B60611D4B2B2900FB3E1C /* IDeviceWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDeviceWrapper.mm; sourceTree = "<group>"; };
+		651B60631D4B493500FB3E1C /* IDeviceWrapper+IDeviceC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDeviceWrapper+IDeviceC.h"; sourceTree = "<group>"; };
+		6549E3561D48A8F300FB3E1C /* PlantronicsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantronicsManager.swift; sourceTree = "<group>"; };
+		6549E3581D48A8FD00FB3E1C /* PlantronicsWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantronicsWrapper.h; sourceTree = "<group>"; };
+		6549E3591D48A8FD00FB3E1C /* PlantronicsWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlantronicsWrapper.mm; sourceTree = "<group>"; };
+		6549E35A1D48A8FD00FB3E1C /* PlantronicsWrapperC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantronicsWrapperC.h; sourceTree = "<group>"; };
+		6549E35B1D48A8FD00FB3E1C /* EventSink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSink.h; sourceTree = "<group>"; };
+		6549E35D1D48A94B00FB3E1C /* Spokes3GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spokes3GSDK.framework; sourceTree = "<group>"; };
+		6549E3611D48B60B00FB3E1C /* DevicesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesManager.swift; sourceTree = "<group>"; };
+		657968C21D463EEB00FB3E1C /* JabraNativeHid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JabraNativeHid.h; path = ../JabraNativeHid.h; sourceTree = "<group>"; };
+		657D32F71D3CB6DB00FB3E1C /* DummyProjectPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyProjectPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		657D32FA1D3CB6DB00FB3E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		657D32FC1D3CB6DB00FB3E1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		657D32FE1D3CB6DB00FB3E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657D33011D3CB6DB00FB3E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		657D33031D3CB6DB00FB3E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657D33081D3CB6DB00FB3E1C /* DummyProjectPhonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyProjectPhonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657D330C1D3CB6DB00FB3E1C /* DummyProjectPhonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyProjectPhonesUITests.swift; sourceTree = "<group>"; };
+		657D330E1D3CB6DB00FB3E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657D33171D3CBC0D00FB3E1C /* libjsoncpp.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libjsoncpp.1.dylib; sourceTree = "<group>"; };
+		657D33181D3CBC0D00FB3E1C /* libjabra.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libjabra.dylib; sourceTree = "<group>"; };
+		657D331F1D3CC7B800FB3E1C /* DummyProjectPhones-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DummyProjectPhones-Bridging-Header.h"; sourceTree = "<group>"; };
+		657D33231D3CD6F700FB3E1C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		657D33261D3CD90E00FB3E1C /* GNDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNDevice.h; sourceTree = "<group>"; };
+		657D33271D3CD90E00FB3E1C /* GNDevice.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GNDevice.mm; sourceTree = "<group>"; };
+		657D33291D3CF77500FB3E1C /* JabraAPIWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JabraAPIWrapper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657D32F41D3CB6DB00FB3E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6549E35E1D48A94B00FB3E1C /* Spokes3GSDK.framework in Frameworks */,
+				657D331B1D3CBC0D00FB3E1C /* libjabra.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657D33051D3CB6DB00FB3E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6549E3551D48A8B800FB3E1C /* Plantronics API */ = {
+			isa = PBXGroup;
+			children = (
+				6549E3581D48A8FD00FB3E1C /* PlantronicsWrapper.h */,
+				6549E3591D48A8FD00FB3E1C /* PlantronicsWrapper.mm */,
+				6549E35A1D48A8FD00FB3E1C /* PlantronicsWrapperC.h */,
+				6549E35B1D48A8FD00FB3E1C /* EventSink.h */,
+				6549E3561D48A8F300FB3E1C /* PlantronicsManager.swift */,
+				651B60631D4B493500FB3E1C /* IDeviceWrapper+IDeviceC.h */,
+				651B60601D4B2B2900FB3E1C /* IDeviceWrapper.h */,
+				651B60611D4B2B2900FB3E1C /* IDeviceWrapper.mm */,
+			);
+			name = "Plantronics API";
+			sourceTree = "<group>";
+		};
+		6549E3601D48B5F700FB3E1C /* Devices Handling */ = {
+			isa = PBXGroup;
+			children = (
+				6549E3611D48B60B00FB3E1C /* DevicesManager.swift */,
+				6549E3551D48A8B800FB3E1C /* Plantronics API */,
+				657D33251D3CD70300FB3E1C /* Jabra API */,
+			);
+			name = "Devices Handling";
+			sourceTree = "<group>";
+		};
+		657D32EE1D3CB6DB00FB3E1C = {
+			isa = PBXGroup;
+			children = (
+				6549E35D1D48A94B00FB3E1C /* Spokes3GSDK.framework */,
+				657D33171D3CBC0D00FB3E1C /* libjsoncpp.1.dylib */,
+				657D33181D3CBC0D00FB3E1C /* libjabra.dylib */,
+				657D32F91D3CB6DB00FB3E1C /* DummyProjectPhones */,
+				657D330B1D3CB6DB00FB3E1C /* DummyProjectPhonesUITests */,
+				657D32F81D3CB6DB00FB3E1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657D32F81D3CB6DB00FB3E1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657D32F71D3CB6DB00FB3E1C /* DummyProjectPhones.app */,
+				657D33081D3CB6DB00FB3E1C /* DummyProjectPhonesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657D32F91D3CB6DB00FB3E1C /* DummyProjectPhones */ = {
+			isa = PBXGroup;
+			children = (
+				657D32FA1D3CB6DB00FB3E1C /* AppDelegate.swift */,
+				657D32FC1D3CB6DB00FB3E1C /* ViewController.swift */,
+				657D32FE1D3CB6DB00FB3E1C /* Assets.xcassets */,
+				657D33001D3CB6DB00FB3E1C /* Main.storyboard */,
+				657D33031D3CB6DB00FB3E1C /* Info.plist */,
+				6549E3601D48B5F700FB3E1C /* Devices Handling */,
+				657D331F1D3CC7B800FB3E1C /* DummyProjectPhones-Bridging-Header.h */,
+			);
+			path = DummyProjectPhones;
+			sourceTree = "<group>";
+		};
+		657D330B1D3CB6DB00FB3E1C /* DummyProjectPhonesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				657D330C1D3CB6DB00FB3E1C /* DummyProjectPhonesUITests.swift */,
+				657D330E1D3CB6DB00FB3E1C /* Info.plist */,
+			);
+			path = DummyProjectPhonesUITests;
+			sourceTree = "<group>";
+		};
+		657D33251D3CD70300FB3E1C /* Jabra API */ = {
+			isa = PBXGroup;
+			children = (
+				657968C21D463EEB00FB3E1C /* JabraNativeHid.h */,
+				657D33231D3CD6F700FB3E1C /* Constants.h */,
+				657D33261D3CD90E00FB3E1C /* GNDevice.h */,
+				657D33271D3CD90E00FB3E1C /* GNDevice.mm */,
+				657D33291D3CF77500FB3E1C /* JabraAPIWrapper.swift */,
+			);
+			name = "Jabra API";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657D32F61D3CB6DB00FB3E1C /* DummyProjectPhones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657D33111D3CB6DB00FB3E1C /* Build configuration list for PBXNativeTarget "DummyProjectPhones" */;
+			buildPhases = (
+				657D32F31D3CB6DB00FB3E1C /* Sources */,
+				657D32F41D3CB6DB00FB3E1C /* Frameworks */,
+				657D32F51D3CB6DB00FB3E1C /* Resources */,
+				657D331C1D3CC5CD00FB3E1C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DummyProjectPhones;
+			productName = DummyProjectPhones;
+			productReference = 657D32F71D3CB6DB00FB3E1C /* DummyProjectPhones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657D33071D3CB6DB00FB3E1C /* DummyProjectPhonesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657D33141D3CB6DB00FB3E1C /* Build configuration list for PBXNativeTarget "DummyProjectPhonesUITests" */;
+			buildPhases = (
+				657D33041D3CB6DB00FB3E1C /* Sources */,
+				657D33051D3CB6DB00FB3E1C /* Frameworks */,
+				657D33061D3CB6DB00FB3E1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657D330A1D3CB6DB00FB3E1C /* PBXTargetDependency */,
+			);
+			name = DummyProjectPhonesUITests;
+			productName = DummyProjectPhonesUITests;
+			productReference = 657D33081D3CB6DB00FB3E1C /* DummyProjectPhonesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657D32EF1D3CB6DB00FB3E1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrea Ciani";
+				TargetAttributes = {
+					657D32F61D3CB6DB00FB3E1C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					657D33071D3CB6DB00FB3E1C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 657D32F61D3CB6DB00FB3E1C;
+					};
+				};
+			};
+			buildConfigurationList = 657D32F21D3CB6DB00FB3E1C /* Build configuration list for PBXProject "DummyProjectPhones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657D32EE1D3CB6DB00FB3E1C;
+			productRefGroup = 657D32F81D3CB6DB00FB3E1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657D32F61D3CB6DB00FB3E1C /* DummyProjectPhones */,
+				657D33071D3CB6DB00FB3E1C /* DummyProjectPhonesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657D32F51D3CB6DB00FB3E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657D32FF1D3CB6DB00FB3E1C /* Assets.xcassets in Resources */,
+				657D33021D3CB6DB00FB3E1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657D33061D3CB6DB00FB3E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657D32F31D3CB6DB00FB3E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657D33281D3CD90E00FB3E1C /* GNDevice.mm in Sources */,
+				6549E35C1D48A8FD00FB3E1C /* PlantronicsWrapper.mm in Sources */,
+				6549E3621D48B60B00FB3E1C /* DevicesManager.swift in Sources */,
+				657D32FD1D3CB6DB00FB3E1C /* ViewController.swift in Sources */,
+				6549E3571D48A8F300FB3E1C /* PlantronicsManager.swift in Sources */,
+				651B60621D4B2B2900FB3E1C /* IDeviceWrapper.mm in Sources */,
+				657D32FB1D3CB6DB00FB3E1C /* AppDelegate.swift in Sources */,
+				657D332A1D3CF77500FB3E1C /* JabraAPIWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657D33041D3CB6DB00FB3E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657D330D1D3CB6DB00FB3E1C /* DummyProjectPhonesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657D330A1D3CB6DB00FB3E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657D32F61D3CB6DB00FB3E1C /* DummyProjectPhones */;
+			targetProxy = 657D33091D3CB6DB00FB3E1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		657D33001D3CB6DB00FB3E1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657D33011D3CB6DB00FB3E1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		657D330F1D3CB6DB00FB3E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		657D33101D3CB6DB00FB3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		657D33121D3CB6DB00FB3E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DummyProjectPhones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AC.DummyProjectPhones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DummyProjectPhones/DummyProjectPhones-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		657D33131D3CB6DB00FB3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DummyProjectPhones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AC.DummyProjectPhones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DummyProjectPhones/DummyProjectPhones-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		657D33151D3CB6DB00FB3E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DummyProjectPhonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AC.DummyProjectPhonesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DummyProjectPhones;
+			};
+			name = Debug;
+		};
+		657D33161D3CB6DB00FB3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DummyProjectPhonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AC.DummyProjectPhonesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DummyProjectPhones;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657D32F21D3CB6DB00FB3E1C /* Build configuration list for PBXProject "DummyProjectPhones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657D330F1D3CB6DB00FB3E1C /* Debug */,
+				657D33101D3CB6DB00FB3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657D33111D3CB6DB00FB3E1C /* Build configuration list for PBXNativeTarget "DummyProjectPhones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657D33121D3CB6DB00FB3E1C /* Debug */,
+				657D33131D3CB6DB00FB3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657D33141D3CB6DB00FB3E1C /* Build configuration list for PBXNativeTarget "DummyProjectPhonesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657D33151D3CB6DB00FB3E1C /* Debug */,
+				657D33161D3CB6DB00FB3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657D32EF1D3CB6DB00FB3E1C /* Project object */;
+}

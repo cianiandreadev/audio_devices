@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+	<XMLRoot class_id="0" tracking_level="0" version="0">
+  <devices class_id="1" tracking_level="0" version="0">
+			<count>96</count>
+    <item_version>1</item_version>
+    <item class_id="2" tracking_level="0" version="1">
+      <px class_id="3" tracking_level="1" version="0" object_id="_0">
+        <ProductId>410</ProductId>
+        <UsagePage>C</UsagePage>
+        <Name>BellRinger</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BellRingerEvent</DeviceEventHandler>
+        <HostCommandHandler>BellRingerCommand</HostCommandHandler>
+        <DeviceListenerHandler>BellRingerDeviceListener</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_1">
+        <ProductId>411</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Hydra</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>SaviEvent</DeviceEventHandler>
+        <HostCommandHandler>SaviCommand</HostCommandHandler>
+        <DeviceListenerHandler>SaviDeviceListener</DeviceListenerHandler>
+        <HostCommandDelay>50</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+    <px class_id_reference="3" object_id="_2">
+      <ProductId>DA45</ProductId>
+      <UsagePage>C</UsagePage>
+      <Name>DA45</Name>
+      <Assembly></Assembly>
+      <DeviceEventHandler>DA45Event</DeviceEventHandler>
+      <HostCommandHandler>DA45Command</HostCommandHandler>
+      <DeviceListenerHandler></DeviceListenerHandler>
+      <HostCommandDelay></HostCommandDelay>
+    </px>
+   </item>
+    <item>
+      <px class_id_reference="3" object_id="_3">
+        <ProductId>620</ProductId>
+        <UsagePage>FF52</UsagePage>
+        <Name>Calisto Pro</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>NeoEvent</DeviceEventHandler>
+        <HostCommandHandler>NeoCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>50</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_4">
+        <ProductId>AB12</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Yeti</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>YetiEvent</DeviceEventHandler>
+        <HostCommandHandler>YetiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_5">
+        <ProductId>AC01</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Poseidon</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>PoseidonEvent</DeviceEventHandler>
+        <HostCommandHandler>PoseidonCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_6">
+        <ProductId>AC11</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Poseidon</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>PoseidonEvent</DeviceEventHandler>
+        <HostCommandHandler>PoseidonCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_7">
+        <ProductId>412</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Hydra</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>SaviEvent</DeviceEventHandler>
+        <HostCommandHandler>SaviCommand</HostCommandHandler>
+        <DeviceListenerHandler>SaviDeviceListener</DeviceListenerHandler>
+        <HostCommandDelay>50</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_8">
+        <ProductId>4254</ProductId>
+        <UsagePage>C</UsagePage>
+        <Name>BlueMax</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BlueMaxEvent</DeviceEventHandler>
+        <HostCommandHandler>BlueMaxCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_9">
+        <ProductId>715</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BlueMax5Event</DeviceEventHandler>
+        <HostCommandHandler>BlueMax5Command</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_10">
+        <ProductId>716</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BlueMax5Event</DeviceEventHandler>
+        <HostCommandHandler>BlueMax5Command</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_11">
+        <ProductId>717</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>DelphiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_12">
+        <ProductId>718</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>DelphiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_13">
+        <ProductId>413</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>DelphiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_14">
+        <ProductId>414</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>DelphiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_15">
+        <ProductId>415</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>DelphiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_16">
+        <ProductId>416</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>DelphiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_17">
+        <ProductId>417</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>R3DongleCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_18">
+        <ProductId>418</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>R3DongleCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_19">
+        <ProductId>419</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Bluetooth Adapter</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>DelphiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_20">
+        <ProductId>ca00</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Calisto 800</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>CapriEvent</DeviceEventHandler>
+        <HostCommandHandler>CapriCommand</HostCommandHandler>
+        <DeviceListenerHandler>CapriDeviceListener</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_21">
+        <ProductId>ca01</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Calisto 800</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>CapriEvent</DeviceEventHandler>
+        <HostCommandHandler>CapriCommand</HostCommandHandler>
+        <DeviceListenerHandler>CapriDeviceListener</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_22">
+        <ProductId>AE11</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Calisto 240</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>LatteEvent</DeviceEventHandler>
+        <HostCommandHandler>LatteCommand</HostCommandHandler>
+        <DeviceListenerHandler>LatteDeviceListener</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_23">
+        <ProductId>AE01</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Calisto 240</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>LatteEvent</DeviceEventHandler>
+        <HostCommandHandler>LatteCommand</HostCommandHandler>
+        <DeviceListenerHandler>LatteDeviceListener</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_24">
+        <ProductId>CA03</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Calisto 620 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler></DeviceEventHandler>
+        <HostCommandHandler>R3HostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_25">
+        <ProductId>10A</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C700 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>BluePacificHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_26">
+        <ProductId>10B</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C700 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>BluePacificHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+	  <item>
+		  <px class_id_reference="3" object_id="_27">
+			  <ProductId>124</ProductId>
+			  <UsagePage>FFA0</UsagePage>
+			  <Name>C700 Series</Name>
+			  <Assembly></Assembly>
+			  <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+			  <HostCommandHandler>BluePacificHostCommand</HostCommandHandler>
+			  <DeviceListenerHandler></DeviceListenerHandler>
+			  <HostCommandDelay></HostCommandDelay>
+		  </px>
+	  </item>
+	  <item>
+		  <px class_id_reference="3" object_id="_28">
+			  <ProductId>125</ProductId>
+			  <UsagePage>FFA0</UsagePage>
+			  <Name>C700 Series</Name>
+			  <Assembly></Assembly>
+			  <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+			  <HostCommandHandler>BluePacificHostCommand</HostCommandHandler>
+			  <DeviceListenerHandler></DeviceListenerHandler>
+			  <HostCommandDelay></HostCommandDelay>
+		  </px>
+	  </item>
+    <item>
+      <px class_id_reference="3" object_id="_29">
+        <ProductId>10C</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C700 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>BluePacificHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_30">
+        <ProductId>10D</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C700 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+        <HostCommandHandler>BluePacificHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_31">
+        <ProductId>AD03</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>MDA200</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler></DeviceEventHandler>
+        <HostCommandHandler>RomeHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_32">
+        <ProductId>AB01</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Yeti</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>YetiEvent</DeviceEventHandler>
+        <HostCommandHandler>YetiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_33">
+        <ProductId>AB11</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Yeti</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>YetiEvent</DeviceEventHandler>
+        <HostCommandHandler>YetiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_34">
+        <ProductId>AB02</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Yeti</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>YetiEvent</DeviceEventHandler>
+        <HostCommandHandler>YetiCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_35">
+        <ProductId>C00E</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_36">
+        <ProductId>C00F</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_37">
+        <ProductId>C01E</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_38">
+        <ProductId>C01F</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_39">
+        <ProductId>C022</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_40">
+        <ProductId>C023</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_41">
+        <ProductId>C024</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_42">
+        <ProductId>C025</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_43">
+        <ProductId>C026</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_44">
+        <ProductId>C027</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_45">
+        <ProductId>C028</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_46">
+        <ProductId>C029</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C300 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_47">
+        <ProductId>C015</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_48">
+        <ProductId>C016</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_49">
+        <ProductId>C017</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_50">
+        <ProductId>C018</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_51">
+        <ProductId>C019</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_52">
+        <ProductId>C01A</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_53">
+        <ProductId>C01B</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_54">
+        <ProductId>C01C</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_55">
+        <ProductId>0117</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Emerald</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_56">
+        <ProductId>0118</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Emerald</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_57">
+        <ProductId>0119</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Emerald</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_58">
+        <ProductId>011E</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Emerald</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_59">
+        <ProductId>011F</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Emerald</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_60">
+        <ProductId>0120</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Emerald</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_61">
+        <ProductId>0121</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Emerald</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_62">
+        <ProductId>C032</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C435</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_63">
+        <ProductId>C033</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C435</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_64">
+        <ProductId>AF00</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon DA70</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_65">
+        <ProductId>AF01</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon DA80</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_66">
+        <ProductId>AF02</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon DA90</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_67">
+        <ProductId>AE02</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Cinnamon</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDisplayDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_68">
+        <ProductId>AE03</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Cinnamon</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDisplayDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_69">
+        <ProductId>C02F</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Sportster Superlow</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_70">
+        <ProductId>C034</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>Prius</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+	<item>
+      <px class_id_reference="3" object_id="_71">
+        <ProductId>02ff</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Cydoemus</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDisplayDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+   <item>
+      <px class_id_reference="3" object_id="_72">
+        <ProductId>02FA</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Cydoemus 2</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+   <item>
+      <px class_id_reference="3" object_id="_73">
+        <ProductId>AF03</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon HW515</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+  <item>
+      <px class_id_reference="3" object_id="_74">
+        <ProductId>AF04</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon HW525</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+   <item>
+      <px class_id_reference="3" object_id="_75">
+        <ProductId>AF05</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon HW545</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+  <item>
+      <px class_id_reference="3" object_id="_76">
+        <ProductId>AF06</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon HW715</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+  <item>
+      <px class_id_reference="3" object_id="_77">
+        <ProductId>AF07</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon HW725</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+  <item>
+      <px class_id_reference="3" object_id="_78">
+        <ProductId>AF09</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Doubloon HW535</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+     <item>
+      <px class_id_reference="3" object_id="_79">
+        <ProductId>02FB</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Cydoemus 2</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+     <item>
+      <px class_id_reference="3" object_id="_80">
+        <ProductId>02FC</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Cydoemus 2</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+     <item>
+         <px class_id_reference="3" object_id="_81">
+             <ProductId>0127</ProductId>
+             <UsagePage>FFA2</UsagePage>
+             <Name>Madone</Name>
+             <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+             <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+             <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+             <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+             <HostCommandDelay></HostCommandDelay>
+         </px>
+     </item>
+    <item>
+      <px class_id_reference="3" object_id="_82">
+        <ProductId>AF0A</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Metis-APU72</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+			<item>
+				<px class_id_reference="3" object_id="_83">
+					<ProductId>011A</ProductId>
+					<UsagePage>FFA0</UsagePage>
+					<Name>Nirvana</Name>
+					<Assembly></Assembly>
+					<DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+					<HostCommandHandler>NirvanaCommand</HostCommandHandler>
+					<DeviceListenerHandler></DeviceListenerHandler>
+					<HostCommandDelay>10</HostCommandDelay>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="3" object_id="_84">
+					<ProductId>011C</ProductId>
+					<UsagePage>FFA0</UsagePage>
+					<Name>Nirvana</Name>
+					<Assembly></Assembly>
+					<DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+					<HostCommandHandler>NirvanaCommand</HostCommandHandler>
+					<DeviceListenerHandler></DeviceListenerHandler>
+					<HostCommandDelay>10</HostCommandDelay>
+				</px>
+			</item>
+		<item>
+			<px class_id_reference="3" object_id="_85">
+				<ProductId>012E</ProductId>
+				<UsagePage>FFA2</UsagePage>
+				<Name>Emerald</Name>
+				<Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+				<DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+				<HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+				<DeviceListenerHandler></DeviceListenerHandler>
+				<HostCommandDelay>10</HostCommandDelay>
+			</px>
+		</item>
+     <item>
+      <px class_id_reference="3" object_id="_86">
+        <ProductId>C035</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_87">
+        <ProductId>C036</ProductId>
+        <UsagePage>FFA0</UsagePage>
+        <Name>C500 Series</Name>
+        <Assembly></Assembly>
+        <DeviceEventHandler>BaseDeviceEvent</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand</HostCommandHandler>
+        <DeviceListenerHandler></DeviceListenerHandler>
+        <HostCommandDelay>10</HostCommandDelay>
+      </px>
+    </item>
+      <item>
+          <px class_id_reference="3" object_id="_88">
+              <ProductId>129</ProductId>
+              <UsagePage>FFA0</UsagePage>
+              <Name>C700 Series</Name>
+              <Assembly></Assembly>
+              <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+              <HostCommandHandler>BluePacificHostCommand</HostCommandHandler>
+              <DeviceListenerHandler></DeviceListenerHandler>
+              <HostCommandDelay></HostCommandDelay>
+          </px>
+      </item>
+      <item>
+          <px class_id_reference="3" object_id="_89">
+              <ProductId>12A</ProductId>
+              <UsagePage>FFA0</UsagePage>
+              <Name>C700 Series</Name>
+              <Assembly></Assembly>
+              <DeviceEventHandler>DelphiEvent</DeviceEventHandler>
+              <HostCommandHandler>BluePacificHostCommand</HostCommandHandler>
+              <DeviceListenerHandler></DeviceListenerHandler>
+              <HostCommandDelay></HostCommandDelay>
+          </px>
+      </item>
+  <item>
+      <px class_id_reference="3" object_id="_90">
+        <ProductId>AF08</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>APU 75</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+      <item>
+          <px class_id_reference="3" object_id="_91">
+              <ProductId>011B</ProductId>
+              <UsagePage>FFA0</UsagePage>
+              <Name>Sublime</Name>
+              <Assembly></Assembly>
+              <DeviceEventHandler></DeviceEventHandler>
+              <HostCommandHandler>NirvanaCommand</HostCommandHandler>
+              <DeviceListenerHandler></DeviceListenerHandler>
+              <HostCommandDelay></HostCommandDelay>
+          </px>
+      </item>
+      <item>
+          <px class_id_reference="3" object_id="_92">
+              <ProductId>011D</ProductId>
+              <UsagePage>FFA0</UsagePage>
+              <Name>Sublime</Name>
+              <Assembly></Assembly>
+              <DeviceEventHandler></DeviceEventHandler>
+              <HostCommandHandler>NirvanaCommand</HostCommandHandler>
+              <DeviceListenerHandler></DeviceListenerHandler>
+              <HostCommandDelay></HostCommandDelay>
+          </px>
+      </item>
+
+      <item>
+      <px class_id_reference="3" object_id="_93">
+        <ProductId>AC20</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Seirenes</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="3" object_id="_94">
+        <ProductId>02F7</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Cydoemus 2</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+  <item>
+      <px class_id_reference="3" object_id="_95">
+        <ProductId>02F6</ProductId>
+        <UsagePage>FFA2</UsagePage>
+        <Name>Cydoemus 2</Name>
+        <Assembly>BaseHostCommand2DynamicSDK.dll</Assembly>
+        <DeviceEventHandler>BaseDeviceEvent2</DeviceEventHandler>
+        <HostCommandHandler>BaseHostCommand2</HostCommandHandler>
+        <DeviceListenerHandler>BaseDeviceListener2</DeviceListenerHandler>
+        <HostCommandDelay></HostCommandDelay>      
+      </px>
+    </item>
+  </devices>
+  <dfu class_id="4" tracking_level="0" version="0">
+			<count>58</count>
+    <item_version>1</item_version>
+      <item class_id="5" tracking_level="0" version="1">
+        <px class_id="6" tracking_level="0" version="0" object_id="_1">
+        <ProductID>113</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_2">
+        <ProductID>114</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_3">
+        <ProductID>115</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_4">
+        <ProductID>122</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_5">
+        <ProductID>123</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_6">
+        <ProductID>413</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_7">
+        <ProductID>414</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_8">
+        <ProductID>415</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_9">
+        <ProductID>416</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_10">
+        <ProductID>417</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_11">
+        <ProductID>418</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_12">
+        <ProductID>10C</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_13">
+        <ProductID>10D</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_14">
+        <ProductID>10A</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_15">
+        <ProductID>10B</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+	<item>
+	  <px class_id_reference="6" object_id="_16">
+		<ProductID>124</ProductID>
+      <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+      <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+      <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+      <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+		  <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+		  <TuningDFUHandler></TuningDFUHandler>
+	  </px>
+    </item>
+	<item>
+	  <px class_id_reference="6" object_id="_17">
+		<ProductID>125</ProductID>
+      <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+      <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+      <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+      <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+		  <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+		  <TuningDFUHandler></TuningDFUHandler>
+	  </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_18">
+        <ProductID>6</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_19">
+        <ProductID>100</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_20">
+        <ProductID>101</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_21">
+        <ProductID>104</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_22">
+        <ProductID>10E</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_23">
+        <ProductID>107</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_24">
+        <ProductID>106</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_25">
+        <ProductID>108</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_26">
+        <ProductID>109</ProductID>
+        <USBDFUHandler>BTDeviceDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>BTDeviceDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler>BTDeviceDFU.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler>BTDeviceDFU.dll</BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_27">
+        <ProductID>AF00</ProductID>
+        <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler></HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_28">
+        <ProductID>AF01</ProductID>
+        <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler></HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_29">
+        <ProductID>AF02</ProductID>
+        <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler></HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+        <px class_id_reference="6" object_id="_30">
+            <ProductID>AF03</ProductID>
+            <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+            <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+            <HeadsetDFUHandler></HeadsetDFUHandler>
+            <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+            <BC5DFUHandler></BC5DFUHandler>
+            <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+        </px>
+    </item>
+    <item>
+        <px class_id_reference="6" object_id="_31">
+            <ProductID>AF04</ProductID>
+            <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+            <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+            <HeadsetDFUHandler></HeadsetDFUHandler>
+            <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+            <BC5DFUHandler></BC5DFUHandler>
+            <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+        </px>
+    </item>
+    <item>
+        <px class_id_reference="6" object_id="_32">
+            <ProductID>AF05</ProductID>
+            <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+            <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+            <HeadsetDFUHandler></HeadsetDFUHandler>
+            <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+            <BC5DFUHandler></BC5DFUHandler>
+            <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+        </px>
+    </item>
+    <item>
+        <px class_id_reference="6" object_id="_33">
+            <ProductID>AF06</ProductID>
+            <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+            <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+            <HeadsetDFUHandler></HeadsetDFUHandler>
+            <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+            <BC5DFUHandler></BC5DFUHandler>
+            <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+        </px>
+    </item>
+    <item>
+        <px class_id_reference="6" object_id="_34">
+            <ProductID>AF07</ProductID>
+            <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+            <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+            <HeadsetDFUHandler></HeadsetDFUHandler>
+            <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+            <BC5DFUHandler></BC5DFUHandler>
+            <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+        </px>
+    </item>
+    <item>
+        <px class_id_reference="6" object_id="_35">
+            <ProductID>AF09</ProductID>
+            <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+            <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+            <HeadsetDFUHandler></HeadsetDFUHandler>
+            <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+            <BC5DFUHandler></BC5DFUHandler>
+            <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+        </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_36">
+        <ProductID>410</ProductID>
+        <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+        <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+        <HeadsetDFUHandler></HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_37">
+					<ProductID>011A</ProductID>
+					<USBDFUHandler></USBDFUHandler>
+					<BaseDFUHandler></BaseDFUHandler>
+					<HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+					<LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler>EmeraldDFUDynamic.dll</HSLanguageDFUHandler>
+					<BC5DFUHandler></BC5DFUHandler>
+					<TuningDFUHandler></TuningDFUHandler>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="6" object_id="_38">
+					<ProductID>011C</ProductID>
+					<USBDFUHandler></USBDFUHandler>
+					<BaseDFUHandler></BaseDFUHandler>
+					<HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+					<LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler>EmeraldDFUDynamic.dll</HSLanguageDFUHandler>
+					<BC5DFUHandler></BC5DFUHandler>
+					<TuningDFUHandler></TuningDFUHandler>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="6" object_id="_39">
+					<ProductID>011E</ProductID>
+					<USBDFUHandler></USBDFUHandler>
+					<BaseDFUHandler></BaseDFUHandler>
+					<HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+					<LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+					<BC5DFUHandler></BC5DFUHandler>
+					<TuningDFUHandler></TuningDFUHandler>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="6" object_id="_40">
+					<ProductID>0127</ProductID>
+					<USBDFUHandler>MadoneDFUDynamic.dll</USBDFUHandler>
+					<BaseDFUHandler></BaseDFUHandler>
+          <HeadsetDFUHandler></HeadsetDFUHandler>
+					<LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler>MadoneDFUDynamic.dll</HSLanguageDFUHandler>
+					<BC5DFUHandler></BC5DFUHandler>
+					<TuningDFUHandler></TuningDFUHandler>
+				</px>
+			</item>
+      <item>
+        <px class_id_reference="6" object_id="_41">
+          <ProductID>02FA</ProductID>
+          <USBDFUHandler>CydoemusDFUDynamic.dll</USBDFUHandler>
+          <BaseDFUHandler></BaseDFUHandler>
+          <HeadsetDFUHandler></HeadsetDFUHandler>
+          <LanguageDFUHandler></LanguageDFUHandler>
+          <HSLanguageDFUHandler></HSLanguageDFUHandler>
+          <BC5DFUHandler></BC5DFUHandler>
+          <TuningDFUHandler></TuningDFUHandler>
+        </px>
+      </item>
+			<item>
+				<px class_id_reference="6" object_id="_42">
+					<ProductID>02FB</ProductID>
+					<USBDFUHandler>CydoemusDFUDynamic.dll</USBDFUHandler>
+					<BaseDFUHandler></BaseDFUHandler>
+          <HeadsetDFUHandler></HeadsetDFUHandler>
+					<LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+					<BC5DFUHandler></BC5DFUHandler>
+					<TuningDFUHandler></TuningDFUHandler>
+				</px>
+			</item>
+    <item>
+				<px class_id_reference="6" object_id="_43">
+					<ProductID>02FC</ProductID>
+					<USBDFUHandler>CydoemusDFUDynamic.dll</USBDFUHandler>
+					<BaseDFUHandler></BaseDFUHandler>
+          <HeadsetDFUHandler></HeadsetDFUHandler>
+					<LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+					<BC5DFUHandler></BC5DFUHandler>
+					<TuningDFUHandler></TuningDFUHandler>
+				</px>
+			</item>
+    <item>
+        <px class_id_reference="6" object_id="_44">
+          <ProductID>AF08</ProductID>
+          <USBDFUHandler>TIDFU.dll</USBDFUHandler>
+          <BaseDFUHandler>TIDFU.dll</BaseDFUHandler>
+          <HeadsetDFUHandler></HeadsetDFUHandler>
+          <LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+          <BC5DFUHandler></BC5DFUHandler>
+          <TuningDFUHandler>DSPTuningDFU.dll</TuningDFUHandler>
+        </px>
+      </item>
+      	<item>
+      <px class_id_reference="6" object_id="_45">
+        <ProductID>0117</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+        <HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_46">
+        <ProductID>0118</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+        <HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_47">
+        <ProductID>0119</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+        <HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_48">
+        <ProductID>011e</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+        <HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_49">
+        <ProductID>011f</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+        <HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>	<item>
+      <px class_id_reference="6" object_id="_50">
+        <ProductID>0120</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+        <HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_51">
+        <ProductID>0121</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+        <HSLanguageDFUHandler></HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_52">
+        <ProductID>011A</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+        <HSLanguageDFUHandler>EmeraldDFUDynamic.dll</HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+    <item>
+      <px class_id_reference="6" object_id="_53">
+        <ProductID>011C</ProductID>
+        <USBDFUHandler></USBDFUHandler>
+        <BaseDFUHandler></BaseDFUHandler>
+        <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+        <LanguageDFUHandler></LanguageDFUHandler>
+        <HSLanguageDFUHandler>EmeraldDFUDynamic.dll</HSLanguageDFUHandler>
+        <BC5DFUHandler></BC5DFUHandler>
+        <TuningDFUHandler></TuningDFUHandler>
+      </px>
+    </item>
+      <item>
+          <px class_id_reference="6" object_id="_54">
+              <ProductID>012E</ProductID>
+              <USBDFUHandler></USBDFUHandler>
+              <BaseDFUHandler></BaseDFUHandler>
+              <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+              <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+              <HSLanguageDFUHandler></HSLanguageDFUHandler>              
+              <BC5DFUHandler></BC5DFUHandler>
+              <TuningDFUHandler></TuningDFUHandler>
+          </px>
+      </item>
+      <item>
+          <px class_id_reference="6" object_id="_55">
+              <ProductID>011B</ProductID>
+              <USBDFUHandler></USBDFUHandler>
+              <BaseDFUHandler></BaseDFUHandler>
+              <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+              <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+              <HSLanguageDFUHandler>EmeraldDFUDynamic.dll</HSLanguageDFUHandler>
+              <BC5DFUHandler></BC5DFUHandler>
+              <TuningDFUHandler></TuningDFUHandler>
+          </px>
+      </item>
+	  
+      <item>
+          <px class_id_reference="6" object_id="_56">
+              <ProductID>011D</ProductID>
+              <USBDFUHandler></USBDFUHandler>
+              <BaseDFUHandler></BaseDFUHandler>
+              <HeadsetDFUHandler>EmeraldDFUDynamic.dll</HeadsetDFUHandler>
+              <LanguageDFUHandler>EmeraldDFUDynamic.dll</LanguageDFUHandler>
+              <HSLanguageDFUHandler>EmeraldDFUDynamic.dll</HSLanguageDFUHandler>
+              <BC5DFUHandler></BC5DFUHandler>
+              <TuningDFUHandler></TuningDFUHandler>
+          </px>
+      </item>
+    <item>
+				<px class_id_reference="6" object_id="_57">
+					<ProductID>02F7</ProductID>
+					<USBDFUHandler>CydoemusDFUDynamic.dll</USBDFUHandler>
+					<BaseDFUHandler></BaseDFUHandler>
+          <HeadsetDFUHandler></HeadsetDFUHandler>
+					<LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+					<BC5DFUHandler></BC5DFUHandler>
+					<TuningDFUHandler></TuningDFUHandler>
+				</px>
+			</item>
+    <item>
+				<px class_id_reference="6" object_id="_58">
+					<ProductID>02F6</ProductID>
+					<USBDFUHandler>CydoemusDFUDynamic.dll</USBDFUHandler>
+					<BaseDFUHandler></BaseDFUHandler>
+          <HeadsetDFUHandler></HeadsetDFUHandler>
+					<LanguageDFUHandler></LanguageDFUHandler>
+					<HSLanguageDFUHandler></HSLanguageDFUHandler>
+					<BC5DFUHandler></BC5DFUHandler>
+					<TuningDFUHandler></TuningDFUHandler>
+				</px>
+			</item>
+
+  </dfu>
+	</XMLRoot>
+</boost_serialization>
+
